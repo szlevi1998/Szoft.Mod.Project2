@@ -17,7 +17,11 @@ külön is dolgozni, ezért mivel időszűkében van, négyönket megbízta azza
 a feladattal, hogy készítsünk neki egy rendszert, ahol el tudja tárolni
 és nyomon tudja követni mindazt, amit papíron vezetett eddig.
 ### 2. Vágyálomrendszer leírása
-Egy olyan, böngészőből elérhető felület, ami jól kinéző és könnyen kezelhető.
+A régi papíros felület helyett szeretnénk egy új, már a mai kornak megfelelő
+internetes, böngészőből elérhető tárolási és lekérdezési lehetőséget nyújtani
+a gyerekkori jó barátunknak.
+
+* Egy olyan, böngészőből elérhető felület, ami jól kinéző és könnyen kezelhető.
 Az oldal inkább a sötét színeket helyezi előtérbe, a szem kímélés érdekében.
 Nem regisztárcióhoz kötött a használata, mivel csak egy személy fogja használni.
 Az oldalon elérhető funkciók jól látható helyen helyezkednek el, már az
