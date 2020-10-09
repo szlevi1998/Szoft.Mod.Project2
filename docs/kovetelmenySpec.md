@@ -17,6 +17,15 @@ külön is dolgozni, ezért mivel időszűkében van, négyönket megbízta azza
 a feladattal, hogy készítsünk neki egy rendszert, ahol el tudja tárolni
 és nyomon tudja követni mindazt, amit papíron vezetett eddig.
 ### 2. Vágyálomrendszer leírása
+Egy olyan, böngészőből elérhető felület, ami jól kinéző és könnyen kezelhető.
+Az oldal inkább a sötét színeket helyezi előtérbe, a szem kímélés érdekében.
+Nem regisztárcióhoz kötött a használata, mivel csak egy személy fogja használni.
+Az oldalon elérhető funkciók jól látható helyen helyezkednek el, már az
+oldal betöltődése után minden fő funkciót láthatunk, ne legyenek alpontok.
+Képes kategóriára keresni és az összes filmet kiadja, ami elérhető cd-n a boltban.
+Képesek vagyunk minden lefoglalt filmez megadni egy azonosítót, egy
+telefonszámot és egy állítható opciót, hogy a filmet kikölcsönözték
+vagy éppen a boltban van.
 ### 3. Jelenlegi üzleti folyamatok modellje
 ### 4. Igényelt üzleti folyamatok modellje
 ### 5. Követelménylista
