@@ -8,15 +8,18 @@ miatt kárt okozva annak az üzletnek, ahol az adatrögzítésnek csak ezt
 az egyetlen fajtáját alkalmazzák. Egy idő után, ha túl sok adatot kell
 tárolni az egész követhetetlenné válhat, mivel lehetetlen minden adatot
 papíron visszakövetni, és az anyagi költségek is túl magasra nőhetnek.
-A környezetünkben is elkezdődtek az elmúlt időben a papíron történő 
+A környezetünkben is elkezdődött az elmúlt időben a papíron történő 
 tárolási mód leváltása, intenetes változatra. Így merült fel az igény,
 hogy elkészüljön minél hamarabb az internetes változat.
+- Jelenleg alkalmazott lehetőségek papíron:
 
-   * Boltban elérhető film nevek tárolása papíron
+   * Boltban elérhető film neveinek tárolása
    
-   * Filmet kibérlő adatainak tárolása papíron
+   * Adott filmből a boltban elérhető mennyiség tárolása
    
-   * Filmek helyzetének tárolása papíron
+   * Filmet kivevő személy adatainak tárolása
+   
+   * Filmek elérhetőségének tárolása
    
 ### 3. Jelenlegi üzleti folyamatok modellje
 ### 4. Igényelt üzleti folyamatok
