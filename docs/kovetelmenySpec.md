@@ -26,19 +26,30 @@ internetes, böngészőből elérhető tárolási és lekérdezési lehetősége
 a gyerekkori jó barátunknak.
 
 * Egy olyan, böngészőből elérhető felület, ami jól kinéző és könnyen kezelhető.
-Az oldal inkább a sötét színeket helyezi előtérbe a szem kímélés érdekében.
-Nem regisztárcióhoz kötött a használata, mivel csak egy személy fogja használni.
-Az oldalon elérhető funkciók jól látható helyen helyezkednek el, már az
+
+* Az oldal inkább a sötét színeket helyezi előtérbe a szem kímélés érdekében.
+
+* Nem regisztárcióhoz kötött a használata, mivel csak egy személy fogja használni.
+
+* Az oldalon elérhető funkciók jól látható helyen helyezkednek el, már az
 oldal betöltődése után minden fő funkciót láthatunk, ne legyenek alpontok.
-A főoldalon az oldalon elérhető összes opcióról egy rövid leírás legyen látható.
-Képes kategóriára, névre és évszámra keresni. Évszámra keresés esetén
-az összes abban a kategóriában elérhető filmet kiadja. Kategória esetén
-az összes elérhető és abban a kategóriában szereplő filmet kiadja a rendszer.
-Névre kereséskor csak azonos egyezőség esetén adja ki a filmet, ha elérhető.
-Minden filmből bizonyos mennyiség áll rendelkezésre, a rendszernek jeleznie
+
+* A főoldalon az oldalon elérhető összes opcióról egy rövid leírás legyen látható.
+
+* Képes kategóriára, névre és évszámra keresni.
+
+* Évszámra keresés esetén az abban az évben megjelenő összes filmet kiadja.
+Ez a keresés kategóriákon belül külön érhető el.
+
+* Kategória esetén az összes elérhető és abban a kategóriában szereplő filmet kiadja a rendszer.
+
+* Névre kereséskor csak azonos egyezőség esetén adja ki a filmet, ha elérhető.
+
+* Minden filmből bizonyos mennyiség áll rendelkezésre, a rendszernek jeleznie
 kell, hogy hány darab érhető el összesen, és hány darab van még a boltban
 ami kikölcsönzésre vár.
-Képesek vagyunk minden lefoglalt filmez megadni egy azonosítót, egy
+
+* Képesek vagyunk minden lefoglalt filmez megadni egy azonosítót, egy
 telefonszámot és egy állítható opciót, hogy a filmet kikölcsönözték
 vagy éppen a boltban van.
 
