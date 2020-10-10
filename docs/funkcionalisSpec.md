@@ -21,3 +21,25 @@ hogy elkészüljön minél hamarabb az internetes változat.
 ### 3. Jelenlegi üzleti folyamatok modellje
 ### 4. Igényelt üzleti folyamatok
 ### 5. Képernyőtervek
+A kliens számára egy megfelelő, szemkímélő designt próbálunk elkészíteni,
+melyet könnyű használni, megjelenése igényes és modern. Ehhez a Bootstrapet
+fogjuk felhasználni, mely letisztult designt biztosít, és emellé rengeteg
+fontos és hasznos felhasználói eszköz megvalósítását egyszerűsíti. Az oldal
+alapja egy főmenü, illetve a menü mellett helyezkedik el a fő tartalom,
+a választott menüpontnak megfelelően. Jelenleg három fő képernyő és menüpont
+van tervbe véve: 
+
+* Főoldal: Itt az elérhető funkciókat fogjuk bővebben kifejteni.
+
+* Elérhető filmek: Az elérhető filmek kategória és megjelenési dátum
+alapján kereshetőek ki az oldalon.
+
+* Kikölcsönzött filmek: Minden kikölcsönzött film rendelkezik egy saját
+id-val, a kikölcsönöztt fél telefonszámával és egy checkbox funkcióval,
+ahol jelölhető, hogy a film éppen ki van e még kölcsönözve vagy már 
+visszhozták. 
+
+A képernyők háttere inkább sötét jellegű lesz. Lehetséges, hogy véletlenszerű
+képek lesznek kiválasztva az unsplash.com oldalról. Az oldal reszponzív
+megjelenésű lesz, a felhasználó szeme előtt mindig csak a fontos információ
+lesz megtalálható.
