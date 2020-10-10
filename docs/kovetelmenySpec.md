@@ -3,7 +3,7 @@
 ### 1. Jelenlegi rendszer leírása
 
 Jelenleg a baráti társaságunk egyik legjobb közös barátja egy saját kisboltot
-tart fent a többi hozzá hasonló filmimádó ember számára, ahol kis könyvekben
+tart fent a többi hozzá hasonló filmimádó ember számára, ahol kis füzetekben
 van felírva a boltjában az összes elérhető film kategória és hozzájuk a
 nevek felsorolva. A boltban a cd-n lévő filmeket helyben is meg lehet tekiteni,
 vagy akár kikölcsönözni és később visszahozni. Minden kikölcsönzött cd-hez
@@ -26,11 +26,18 @@ internetes, böngészőből elérhető tárolási és lekérdezési lehetősége
 a gyerekkori jó barátunknak.
 
 * Egy olyan, böngészőből elérhető felület, ami jól kinéző és könnyen kezelhető.
-Az oldal inkább a sötét színeket helyezi előtérbe, a szem kímélés érdekében.
+Az oldal inkább a sötét színeket helyezi előtérbe a szem kímélés érdekében.
 Nem regisztárcióhoz kötött a használata, mivel csak egy személy fogja használni.
 Az oldalon elérhető funkciók jól látható helyen helyezkednek el, már az
 oldal betöltődése után minden fő funkciót láthatunk, ne legyenek alpontok.
-Képes kategóriára keresni és az összes filmet kiadja, ami elérhető cd-n a boltban.
+A főoldalon az oldalon elérhető összes opcióról egy rövid leírás legyen látható.
+Képes kategóriára, névre és évszámra keresni. Évszámra keresés esetén
+az összes abban a kategóriában elérhető filmet kiadja. Kategória esetén
+az összes elérhető és abban a kategóriában szereplő filmet kiadja a rendszer.
+Névre kereséskor csak azonos egyezőség esetén adja ki a filmet, ha elérhető.
+Minden filmből bizonyos mennyiség áll rendelkezésre, a rendszernek jeleznie
+kell, hogy hány darab érhető el összesen, és hány darab van még a boltban
+ami kikölcsönzésre vár.
 Képesek vagyunk minden lefoglalt filmez megadni egy azonosítót, egy
 telefonszámot és egy állítható opciót, hogy a filmet kikölcsönözték
 vagy éppen a boltban van.
