@@ -64,9 +64,9 @@ sokan egyszerre jelennek meg, ezzel újabb lehetőség van a hibázásra.
 
 * Az átláthatóság hiánya miatt, ez a jelenlegi rendszer nem megfelelő és nem hatékony.
 Az új rendszerrel, amelyet mi tervezünk sokkal jobban dolgozhatunk.
-Ezzel a rendszer a felhasználó interneten keresztül megnézheti, hogy kölcsönözhető egy film vagy nem.
+Ezzel a rendszer az ügyfél interneten keresztül megnézheti, hogy kölcsönözhető egy film vagy nem.
 Abban az esetben, ha a felhasználó egy olyan filmet kölcsönöz ki amely elérhető,
-akkor a rendszer rögzíti, hogy ki milyen filmet és meddig kölcsönözte ki.
+akkor a rendszer tárolja, hogy ki milyen filmet kölcsönzött ki.
 
 ### 4. Igényelt üzleti folyamatok modellje
 ### 5. Követelménylista
