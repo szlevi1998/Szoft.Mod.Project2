@@ -1,5 +1,7 @@
 # Követelmény Specifikáció
+
 ### 1. Jelenlegi rendszer leírása
+
 Jelenleg a baráti társaságunk egyik legjobb közös barátja egy saját kisboltot
 tart fent a többi hozzá hasonló filmimádó ember számára, ahol kis könyvekben
 van felírva a boltjában az összes elérhető film kategória és hozzájuk a
@@ -16,7 +18,9 @@ csődközelbe került. Mivel ismer minket, hogy milyen jól tudunk csapatban és
 külön is dolgozni, ezért mivel időszűkében van, négyönket megbízta azzal
 a feladattal, hogy készítsünk neki egy rendszert, ahol el tudja tárolni
 és nyomon tudja követni mindazt, amit papíron vezetett eddig.
+
 ### 2. Vágyálomrendszer leírása
+
 A régi papíros felület helyett szeretnénk egy új, már a mai kornak megfelelő
 internetes, böngészőből elérhető tárolási és lekérdezési lehetőséget nyújtani
 a gyerekkori jó barátunknak.
@@ -30,6 +34,16 @@ Képes kategóriára keresni és az összes filmet kiadja, ami elérhető cd-n a
 Képesek vagyunk minden lefoglalt filmez megadni egy azonosítót, egy
 telefonszámot és egy állítható opciót, hogy a filmet kikölcsönözték
 vagy éppen a boltban van.
+
 ### 3. Jelenlegi üzleti folyamatok modellje
 ### 4. Igényelt üzleti folyamatok modellje
 ### 5. Követelménylista
+
+* Egy olyan beléptető rendszer ahol a felhasználó saját profilt létrehozhat.
+* Egy olyan rendszer, amelyben a filmek adatai tárolva vannak és lekérdezhetőek.
+* A felhasználó a film nevére, típusára, megjelenési évére tudjon rákeresni.
+* A rendszerben a felhasználó kikölcsönözheti kedvenc filmeit.
+* A rendszer feltünteti, hogy egy film elérhető vagy sem.
+* A regisztrált felhasználónak az elmentetett adatai megjelennek a bejelentkezés után.
+* A program egyszerűen kezelhető letisztult és átlátható legyen.
+   
