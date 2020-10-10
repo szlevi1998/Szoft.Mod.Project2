@@ -60,11 +60,10 @@ akkor a rendszer rögzíti, hogy ki milyen filmet és meddig kölcsönözte ki.
 ### 4. Igényelt üzleti folyamatok modellje
 ### 5. Követelménylista
 
-* Egy olyan beléptető rendszer ahol a felhasználó saját profilt létrehozhat.
 * Egy olyan rendszer, amelyben a filmek adatai tárolva vannak és lekérdezhetőek.
 * A felhasználó a film nevére, típusára, megjelenési évére tudjon rákeresni.
 * A rendszerben a felhasználó kikölcsönözheti kedvenc filmeit.
+* A rendszerben aki kibérel egy filmet annak a telefonszámát tárolni kell.
 * A rendszer feltünteti, hogy egy film elérhető vagy sem.
-* A regisztrált felhasználónak az elmentetett adatai megjelennek a bejelentkezés után.
 * A program egyszerűen kezelhető letisztult és átlátható legyen.
    
