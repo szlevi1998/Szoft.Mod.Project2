@@ -43,6 +43,20 @@ telefonszámot és egy állítható opciót, hogy a filmet kikölcsönözték
 vagy éppen a boltban van.
 
 ### 3. Jelenlegi üzleti folyamatok modellje
+
+* A jelenlegi papíros megoldással számos probléma van,ezek közül a legnagyobb az adatok tárolása.
+A felhasználók adatait nagyon könnyen elveszthetjük a jelenlegi helyzettel.
+Egyre több és több ember csatlakozik, ezeknek a személyeknek az adatait tárolni,
+illetve átlátni egyre nehezebb. A kikölcsönzött filmeknek a nyílvántartása sokkal bonyolultabb.
+Komoly probléma az is, hogy az új megjelenő filmeknél az érdeklődés miatt,
+sokan egyszerre jelennek meg, ezzel újabb lehetőség van a hibázásra.
+
+* Az átláthatóság hiánya miatt, ez a jelenlegi rendszer nem megfelelő és nem hatékony.
+Az új rendszerrel, amelyet mi tervezünk sokkal jobban dolgozhatunk.
+Ezzel a rendszer a felhasználó interneten keresztül megnézheti, hogy kölcsönözhető egy film vagy nem.
+Abban az esetben, ha a felhasználó egy olyan filmet kölcsönöz ki amely elérhető,
+akkor a rendszer rögzíti, hogy ki milyen filmet és meddig kölcsönözte ki.
+
 ### 4. Igényelt üzleti folyamatok modellje
 ### 5. Követelménylista
 
