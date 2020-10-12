@@ -92,3 +92,18 @@ Kölcsönzés:
 ### 13. Implementációs terv.
 
 ### 14. Tesztterv.
+
+Pont|Leírás|  
+----|---  
+01: | A program elindítása.  |
+02: | Az adatbázisból egy létező filmre való rákeresés.  |
+03: | Az adatbázisból egy nem létező filmre való rákeresés.  |
+04: | Az adatbázisból egy létező kategóriára való keresés. |
+05: | Az adatbázisból egy nem létező kategóriára való keresés. |
+06: | Egy bérlő telefonszámának felvétele az adatbázisba. |
+07: | Egy bérlő telefonszámának törlése az adatbázisból. |
+08: | Egy film hozzáadása az adatbázishoz. |
+09: | Egy film kikölcsönzése. |
+10: | Több film kölcsönzése azonos bérlő esetén. |
+11: | Filmek számának bérlésekor a mennyiség változik. |
+12: | Nem létező évszámra keresés filmeknél.
