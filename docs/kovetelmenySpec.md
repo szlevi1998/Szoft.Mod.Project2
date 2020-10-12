@@ -69,6 +69,11 @@ Abban az esetben, ha a felhasználó egy olyan filmet kölcsönöz ki amely elé
 akkor a rendszer tárolja, hogy ki milyen filmet kölcsönzött ki.
 
 ### 4. Igényelt üzleti folyamatok modellje
+* Böngészőből elérhető rendszer.
+* A felhasználók számára átlátható, könnyen kezelhető.
+* Megbízható, tartós adattárolás.
+* Egyszerű és gyors adatbevitel.
+* Nyilvántartás, egyszerű lekérdezések, nyomonkövethetőség.
 ### 5. Követelménylista
 
 * Egy olyan rendszer, amelyben a filmek adatai tárolva vannak és lekérdezhetőek.
