@@ -24,6 +24,35 @@
 
 ### 12. Adatbázis terv.
 
+A program adatbázisát 3 tábla alkotja:
+
+Elérhető filmek:
+
+* id
+* név
+* értékelés
+* mennyiség
+* megjelenés éve
+* kategória
+
+Kikölcsönzött filmek:
+
+* id
+* telefonszám
+* film neve
+* kategóriája
+
+Kölcsönzés:
+
+* id
+* film id
+* kikölcsönöztt film id
+* kölcsönzés dátuma
+
+**Logikai Modell**:
+
+![Kép a modellről: ](photos/db.png)
+
 ### 13. Implementációs terv.
 
 ### 14. Tesztterv.
