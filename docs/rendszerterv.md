@@ -2,6 +2,14 @@
 
 ### 1. A rendszer célja.
 
+A rendszer célja, hogy a régi elavult papíron való adattárolást egy
+modernebb, már a mai kor adatbiztonsági szabályainak megfelelő változatra
+váltsa le. Az új rendszer már interneten működő, böngészőből elérhető
+lesz. A felhasználó így bárhol elérheti majd, ahol lesz internetkapcsolat.
+A munka gyorsabb, hatékonyabb és átláthatóbb lesz, így rengeteg felesleges
+időpazarlásról szabadítja meg a felhasználót, nem mellesleg a programnak a
+költsége elenyésző lesz a korábbihoz képest.
+
 ### 2. A project tervezete.
 
 ### 3. Ütemterv.
