@@ -54,8 +54,34 @@ A program elkészítésének fő mérföldkövei:
 
 ### 5. Követelmények.
 
-### 6. Funkcoinális terv.
+### 6. Funkcionális terv.
 
+* A program célja, hogy a kölcsönzési feladatokat átláthatóbbá és gyorsabbá tegyük.
+A jelenlegi füzetes megoldás már nem naprakész és az alkalmazásunkkal ezt szereznénk lecserélni.
+A jelenlegi funkciók mellett további funkciókat adunk hozzá.
+
+* Az alábbi funkciók: 
+    - Filmek elérhetőségének megjelenítése
+    - Az elérhető filmeknek a mennyiségének megjelenítése 
+    - Filmekre való keresés      
+    - Filmekre keresés név,kategória,megjelenés éve alapján    
+    - Filmek értékelésének kimutatása 
+    - A jelenleg kikölcsönzött filmek kimutatása 
+    - A kölcsönző ügyfélnek a telefonszámának megjelenítése
+    - A kölcsönzés dátumának megjelenítése.
+    
+* Ezekkel a funkciókkal a kölcsönzés/bérlés mind az ügyfélnek mind a
+ tulajnak sokkal kényelmesebbé válik. Keresés sokkal egyszerűbb,
+ hiszen az ügyfélnek nem kell elmenni az üzlethez, hogy megtudja,
+ az adott film elérhető vagy nem. Emellett a pontozási rendszerrel
+ ,a kategóriákkal, az ügyfél könnyen találhat magának egy filmet amit
+ kikölcsönözhet, bérelhet, hiszen így van valamilyen viszonyítási alapja.  
+  
+ * A tulajnak is egyszerűbbé válik ezeknek a feladatoknak a vezetése.
+ Ugyanis tudni fogja sokkal egyszerűbben, hogy az adott film (ami már
+ ki van kölcsönözve) kihez tartozik és mikor adta ki. Ezen kívül sokkal
+ egyszerűbben tudja ellenőrízni,hogy az adott filmből hány példány van még.
+           
 ### 7. Rendszerszereplők.
 
 ### 8. Rendszerhasználati esetek és lefutásaik.
