@@ -58,15 +58,32 @@ vagy éppen a boltban van.
 * A jelenlegi papíros megoldással számos probléma van,ezek közül a legnagyobb az adatok tárolása.
 A felhasználók adatait nagyon könnyen elveszthetjük a jelenlegi helyzettel.
 Egyre több és több ember csatlakozik, ezeknek a személyeknek az adatait tárolni,
-illetve átlátni egyre nehezebb. A kikölcsönzött filmeknek a nyílvántartása sokkal bonyolultabb.
+illetve átlátni egyre nehezebb. 
+
+* A kikölcsönzött filmeknek a nyílvántartása sokkal bonyolultabb.
 Komoly probléma az is, hogy az új megjelenő filmeknél az érdeklődés miatt,
 sokan egyszerre jelennek meg, ezzel újabb lehetőség van a hibázásra.
+
+* Komoly probléma az is, hogy az adatok nem csak, hogy könnyen elveszíthető,
+de még szétszórtan is vannak elhelyezve. Ezzel a mostani szituáció eléggé nehezen
+átlátható és mindenféleképpen bonyolultan vezethető. Emelett felhozható ez ellen a rendszer ellen is
+az, hogy nem tudunk szűrni adatokat, nem tudunk csoportosítani csak egy bizonyos módon.
 
 * Az átláthatóság hiánya miatt, ez a jelenlegi rendszer nem megfelelő és nem hatékony.
 Az új rendszerrel, amelyet mi tervezünk sokkal jobban dolgozhatunk.
 Ezzel a rendszer az ügyfél interneten keresztül megnézheti, hogy kölcsönözhető egy film vagy nem.
 Abban az esetben, ha a felhasználó egy olyan filmet kölcsönöz ki amely elérhető,
 akkor a rendszer tárolja, hogy ki milyen filmet kölcsönzött ki.
+
+* Ezzel a rendszerrel sokkal jobban, gyorsabban lehet adatokat leszűrni. Mivel
+gyakorlatilag egy kattintással lehet csoportosítani hogy, az adott film
+elérhető vagy sem. Fontos kiemelni, hogy a tulaj, már az adott filmre való kattintással
+meg tudja jeleníteni a bérelt ügyfeleknek a telefonszámát, ezzel is javítva az átláthatóságot.
+
+* A tulajnak emellett javulni fog a munkamorálja is, hiszen ezzel az 
+alkalmazással, most már az adatait csoportosítja tudja lekérdezni, illetve
+a sötét megjelenítési témával nem fogja a szemét sem károsítani feleslegesen. 
+   
 
 ### 4. Igényelt üzleti folyamatok modellje
 * Böngészőből elérhető rendszer.
