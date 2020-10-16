@@ -43,7 +43,26 @@ hogy elkészüljön minél hamarabb az internetes változat.
    * Filmek elérhetőségének tárolása
    
 ### 3. Jelenlegi üzleti folyamatok modellje
-### 4. Igényelt üzleti folyamatok
+### 4. Igényelt üzleti folyamatok modellje
+
+Maga az ötlet azért vetődött fel mivel egy szerencsétlenség miatt elveszett elég sok fajta dokumentáció ami késöbbi gondokhoz vezethet, tegyük fel pénzbeli kiesés vagy akár rossz hírnév a bolt számára.
+Egy egyszerű, letisztult rendszer kialakítása a kérelem aminek több fajta funkciót kell tartalmaznia.
+Az esetleges hibákat megelőzve a programnak kitünően kell futnia.
+Magának az interfésznek átláthatónak kell lennie és törekedni kell az egyszerűségre.
+Lehetőleg minél jobban testreszabható legyen maga a rendszer.
+A szem kimélése érdekében a háttér színek és maga a kinézet legyen szemkimélő.
+A rendszerben az alábbi dolgokat lehessen csinálni
+
+   * Keresés névre, kategóriára illetve kiadásu évszámra is.
+   
+   * Hány darab film van összesen az adott kérésből.
+   
+   * Hány darab elérhető könyv van az adott kérésből.
+   
+   * A lefoglalt filmekhez legyen elérhető egy azonosító, telefonszám aki kikölcsönözte illetve egy opció miszerint kivan-e kölcsönözve vagy nincs.
+   
+Maga a felület böngészőből legyen elérhető.
+Adattárolására kiválló legyen.
 ### 5. Képernyőtervek
 A kliens számára egy megfelelő, szemkímélő designt próbálunk elkészíteni,
 melyet könnyű használni, megjelenése igényes és modern. Ehhez a Bootstrapet
