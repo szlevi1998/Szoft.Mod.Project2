@@ -52,6 +52,10 @@ A program elkészítésének fő mérföldkövei:
 
 ### 4. Üzleti szereplők.
 
+A rendszer használatára való jogosultsága a tulajdonosnak lesz, jelen esetben a barátunknak.
+Mindenfajta segítséget megadunk neki, hogy gördélékenyebben menjen a program használata.
+Egy esetleges tulajdonos váltás esetén ez a jogosultság átruházható lesz, tehát kompatibilis a tulajdonos váltásra.
+
 ### 5. Követelmények.
 
 ### 6. Funkcionális terv.
