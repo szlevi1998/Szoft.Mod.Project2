@@ -209,9 +209,11 @@ Pont|Leírás|
 35: | Sikeres lekérdezése esetén a telefonszámhoz tartozó összes filmnevet visszaadja.
 36: | Lekérdezés esetén a visszahozott filmek állapotát helyesen jelzi.
 37: | Lekérdezés esetén a kintlévő filmek állapotát helyesen jelzi.
-38: | Törlés létező telefonszámmal működik.
-39: | Egy telefonszám törlésekor az összes hozzá tartozó adat törlődik.
-40: | Törléskor a kikölcsönzött filmek száma frissül.
-41: | Törlés invalid inputtal hibát dob.
-42: | A vissza gomb az összes oldalon működik.
-43: | A vissza a főoldalra gomb az összes oldalon működik.
+38: | Kikölcsönzött filmek menüben az adatok törlése megjelenik.
+39: | Kikölcsönzött filmek menüben az adatok törlése működik.
+40: | Törlés létező telefonszámmal működik.
+41: | Egy telefonszám törlésekor az összes hozzá tartozó adat törlődik.
+42: | Törléskor a kikölcsönzött filmek száma frissül.
+43: | Törlés invalid inputtal hibát dob.
+44: | A vissza gomb az összes oldalon működik.
+45: | A vissza a főoldalra gomb az összes oldalon működik.
