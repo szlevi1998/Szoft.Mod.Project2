@@ -58,6 +58,35 @@ Egy esetleges tulajdonos váltás esetén ez a jogosultság átruházható lesz,
 
 ### 5. Követelmények.
 
+A követelmények a program nagyságával egyenesen arányos.
+Mivel nem egy bonyolult, átláthatatlan mennyiségű adatkezelésre szolgáló rendszer a végkifejlett, így a követelmények is minél egyszerűbb megoldást várnak el.
+
+   *   Egy rendszer ami a barátunk boltjában lévő filmekhez tartozó adatokra tudsz lekérdezést végrehajtani.
+   
+   *   Egy adott filmről lekérdezést tudjunk végrehajtani név szerint
+   
+   *   Egy adott filmről lekérdezést tudjunk végrehajtani kategória szerint.
+   
+   *   Egy adott filmről lekérdezést tudjunk végrehajtani az adott évben kijött filmekről.
+   
+   *   Egy adott filmről megállípítható legyen, hogy kivan-e kölcsönözve.
+   
+   *   Ha egy film kivan kölcsönözve, abban az esetben egy telefonszám legyen mellé írva.
+   
+   *   Egy adott filmről információ, hogy mennyi áll összesen a rendelkezésére a tulajdonosnak.
+   
+   *   Egy adott filmről információ, hogy hány darab kölcsönözhető még ki.
+   
+   *   Letisztult, átlátható, egyszerű rendszer kialakítás.
+   
+   *   Nem kirívó, hanem annál inkább a szem kimélése érdekében sötétebb színek használata.
+   
+   *   Regisztráció nélküli használat.
+   
+   *   A weboldal betöltése után az össze funkció látható legyen.
+   
+   *   A főoldalon az összes opcióról elérhető legyen egy kisebb leírás.
+
 ### 6. Funkcionális terv.
 
 * A program célja, hogy a kölcsönzési feladatokat átláthatóbbá és gyorsabbá tegyük.
