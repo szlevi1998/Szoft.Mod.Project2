@@ -173,15 +173,45 @@ Kölcsönzés:
 
 Pont|Leírás|  
 ----|---  
-01: | A program elindítása.  |
-02: | Az adatbázisból egy létező filmre való rákeresés.  |
-03: | Az adatbázisból egy nem létező filmre való rákeresés.  |
-04: | Az adatbázisból egy létező kategóriára való keresés. |
-05: | Az adatbázisból egy nem létező kategóriára való keresés. |
-06: | Egy bérlő telefonszámának felvétele az adatbázisba. |
-07: | Egy bérlő telefonszámának törlése az adatbázisból. |
-08: | Egy film hozzáadása az adatbázishoz. |
-09: | Egy film kikölcsönzése. |
-10: | Több film kölcsönzése azonos bérlő esetén. |
-11: | Filmek számának bérlésekor a mennyiség változik. |
-12: | Nem létező évszámra keresés filmeknél.
+01: | Az oldal betöltése hibáktól mentes.  |
+02: | Az oldal méretének változtatása nincs hatással a megfelelő kezelhetőségre.
+03: | Minden menü gomb jó helyre vezet.
+04: | Elérhető filmek menüben jelzi összesen hány film van az adatbázisban.
+05: | Elérhető filmek menüben mind a hat opció: keresés név alapján, keresés évszám alapján, keresés kategória alapján, kombinált keresés, film hozzáadása, film törlése megjelenik.
+06: | Elérhető filmek menüben mindegyik opció megfelelően működik.
+07: | Elérhető filmek menüben az összes opción belül minden rubrika kattintható és inputot fogad.
+08: | Elérhető filmek menüben bármelyik rubrika üresen hagyása hibát dob.
+09: | Hibás input beadásakor megfelelő hibaüzenetet ad vissza.
+10: | Sikeres lekérdezés esetén a megadott opcióknak megfelelő filmet / filmeket adja vissza.
+11: | Új film hozzáadásakor frissül az elérhető filmek száma.
+12: | Új film hozzáadásánál ha már egy létező filmet adunk hozzá, akkor a film darabszáma nő.
+13: | Új film hozzáadása csak minden rubrika kitöltésével lehetséges.
+14: | Hibás inputokkal nem lehet új filmet hozzáadni.
+15: | Film törlése megfelelő inputokkal működik.
+16: | Film törlése invalid inputokkal hibát dob.
+17: | Film törlésekor, ha a film többször szerepel az adatbázisban, akkor a darabszámot csökkenti.
+18: | Film törlésekor frissül az elérhető filmek száma.
+19: | Kikölcsönzött filmek menüben jelzi a jelenleg kikölcsönzött filmek számát.
+20: | Kikölcsönzött filmek menüben mind a három opció: adatok hozzáadása, adatok lekérdezése, adatok törlése megjelenik.
+22: | Kikölcsönzött filmek menüben mindegyik opció megfelelően működik.
+23: | Kikölcsönzött filmek menüben az adatok hozzáadása megjelenik.
+24: | Kikölcsönzött filmek menüben az adatok hozzáadása működik.
+25: | Kihagyott / üres rubrika esetén az adat beadása sikertelen.
+26: | Hibás adat megadásakor nem változik a jelenleg kikölcsönzött filmek száma.
+27: | A hozzáadás hibás input esetén hibát dob.
+28: | Hozzáadás esetén a checkbox a film kintlétét jelzi.
+29: | Egy telefonszámhoz több film is adható.
+30: | Egy telefonszám egyszer szerepel az adatbázisban.
+31: | Kikölcsönzött filmek menüben az adatok lekérdezése megjelenik.
+32: | Kikölcsönzött filmek menüben az adatok lekérdezése működik.
+33: | Kihagyott / üres rubrika esetén a lekérdezés sikertelen.
+34: | A lekérdezés hibás input esetén hibát dob.
+35: | Sikeres lekérdezése esetén a telefonszámhoz tartozó összes filmnevet visszaadja.
+36: | Lekérdezés esetén a visszahozott filmek állapotát helyesen jelzi.
+37: | Lekérdezés esetén a kintlévő filmek állapotát helyesen jelzi.
+38: | Törlés létező telefonszámmal működik.
+39: | Egy telefonszám törlésekor az összes hozzá tartozó adat törlődik.
+40: | Törléskor a kikölcsönzött filmek száma frissül.
+41: | Törlés invalid inputtal hibát dob.
+42: | A vissza gomb az összes oldalon működik.
+43: | A vissza a főoldalra gomb az összes oldalon működik.
