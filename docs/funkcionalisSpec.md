@@ -2,24 +2,24 @@
 ### 1. Használati esetek
 
 Számos fontos pontban már érveltünk a követelményspecifikációban az új rendszer mellett.
+Mivel maga tulajdonos fogja csak ezt látni ezért számára lesznek fontosak ezek a használati esetek.
 
-* Az elsődleges érv, amely bizonyítja azt, hogy a programunk a jobb opció az átláthatóság.
-Ezzel a programmal sokkal könnyebben tudjuk a kölcsönzéseket.
-Most már nem is szükséges elmenni az üzlethelyhez, hiszen weben keresztül
-az ügyfél megtekintheti, hogy elérhető a film vagy nem.
-Ez mind az ügyfélnek, mind az üzletvezetőnek kényelmesebb.
+   * Egy filmről való név lekérdezés során.
+   
+   * Egy filmről való kategória lekérdezés során.
+   
+   * Egy adott évben lévő összes film lekérdezése során.
+   
+   * Egy adott film kivan-e kölcsönözve vagy van-e szabad darab.
+   
+   * Egy adott film összes példányának a számáról való lekérdezés során.
+   
+   * Egy adott film kölcsönözhető példányainak számáról való lekérdezés során.
+   
+   * Ha egy film kivan kölcsönözve akkor megtudjuk nézni, hogy ki kölcsönözte ki egy telefonszám alapján.
+   
+   * Meglehessen nézni, hogy milyen értékelést kapott az adott film.
 
-* Üzletben való keresgélés helyett most már interneten lehet név alapján keresni.
-Emellett, ha egy ügyfél nem biztos, hogy milyen filmet akar kölcsönözni, bérelni
-most már könnyebben találhat magának, hiszen kereshet a filmkategóriájára, megjelenési évére.
-
-* Az üzletvezető sokkal könnyebben tudja már, hogy egy ügyfél milyen
-filmet bérel, hiszen ekkor mindig egy telefonszámot párosítunk hozzá.
-Azt is érdemes kiemelni, hogy most már könnyebben le tudja olvasni azt, 
-hogy egy adott filmből mennyi példánnyal rendelkezik abban az adott időpontban.
-
-* Fontos az számunkra, hogy a program átlatható legyen minden egyes felhasználónak
-,illetve az is fontos, hogy az alkalmazás sötét témájú, hiszen ez most a jelenlegi trend. 
 
 ### 2. Jelenlegi helyzet
 A régi papír alapú adatrögzítést szeretnénk egy újabb, korszerűbb megoldásra
