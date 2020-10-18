@@ -8,7 +8,13 @@ váltsa le. Az új rendszer már interneten működő, böngészőből elérhet�
 lesz. A felhasználó így bárhol elérheti majd, ahol lesz internetkapcsolat.
 A munka gyorsabb, hatékonyabb és átláthatóbb lesz, így rengeteg felesleges
 időpazarlásról szabadítja meg a felhasználót, nem mellesleg a programnak a
-költsége elenyésző lesz a korábbihoz képest.
+költsége elenyésző lesz a korábbihoz képest.Az ilyesfajta gondok, mint
+például csőtörés, de akár egy véletlenszerű tűz baleset már nem befolyásolja
+az adminisztratív munkákat.Mivel a weboldalon fog történni a kölcsönzés
+"tárolása", így akár 2-3 kattintással is megoldható lesz egy kikölcsönzés
+ami a kialakult sorok redukációját jelentheti. Maga a rendszeren gyakorlati
+pozitívumán kivül, érzékelhető lesz, hogy a bolt korszerű eszközökkel ujít be
+és ezen felül foglalkozik a bolttal.
 
 ### 2. A project tervezete.
 
