@@ -86,11 +86,13 @@ a sötét megjelenítési témával nem fogja a szemét sem károsítani felesle
    
 
 ### 4. Igényelt üzleti folyamatok modellje
+
 * Böngészőből elérhető rendszer.
 * A felhasználók számára átlátható, könnyen kezelhető.
 * Megbízható, tartós adattárolás.
 * Egyszerű és gyors adatbevitel.
 * Nyilvántartás, egyszerű lekérdezések, nyomonkövethetőség.
+
 ### 5. Követelménylista
 
 * Egy olyan rendszer, amelyben a filmek adatai tárolva vannak és lekérdezhetőek.

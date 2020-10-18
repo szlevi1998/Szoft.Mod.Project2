@@ -158,7 +158,10 @@ Az alábbi funkciók amelyek megkönnyebbíti a tulaj dolgát:
 
 ### 9. Fejlesztői eszközök.
 
+
 ### 10. Keretrendszer.
+
+* Bootstrap 4
 
 ### 11. Architekturális terv.
 
