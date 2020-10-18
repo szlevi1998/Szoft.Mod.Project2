@@ -43,6 +43,26 @@ hogy elkészüljön minél hamarabb az internetes változat.
    * Filmek elérhetőségének tárolása
    
 ### 3. Jelenlegi üzleti folyamatok modellje
+
+A barátunk jelenlegi boltja igencsak széleskörű választékot biztosít filmek terén, viszont az adminisztratív munka hagy némi elégedetlenséget.
+A nemrég bekövetkezett csőtörésből adodó gondok is mutatják, hogy a jelenlegi felállás nem túl korszerű és igényes.
+A jelenlegi üzleti folyamatok igencsak átlagos a konkurens cégekhez képest.
+Sajnos külső okokból származó bajok még jobbana eltudják rontani a bolt hírnevét.
+
+   * Papír alapú adminisztratív munka.
+   
+   * Boltban történő film kölcsönzés.
+   
+   * Időigényes film kölcsönzés.
+   
+   * Esetleges elírásból adodó késleltetési idő.
+   
+   * Időigényes film keresés.
+   
+   * Szinte lehetetlenség évszám szerinti keresés.
+   
+   * Korszerű technológia nélküli munka.
+    
 ### 4. Igényelt üzleti folyamatok modellje
 
 Maga az ötlet azért vetődött fel mivel egy szerencsétlenség miatt elveszett elég sok fajta dokumentáció ami késöbbi gondokhoz vezethet, tegyük fel pénzbeli kiesés vagy akár rossz hírnév a bolt számára.
