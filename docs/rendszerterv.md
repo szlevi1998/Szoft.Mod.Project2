@@ -128,6 +128,8 @@ Az alábbi funkciók amelyek megkönnyebbíti a tulaj dolgát:
 
 ### 8. Rendszerhasználati esetek és lefutásaik.
 
+![Kép a modellről: ](photos/project2_diagram.png)
+
 ### 9. Fejlesztői eszközök.
 
 ### 10. Keretrendszer.
