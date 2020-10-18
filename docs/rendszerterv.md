@@ -208,7 +208,7 @@ Architektúra elemek:
 
 ### 12. Adatbázis terv.
 
-A program adatbázisát 3 tábla alkotja:
+A program adatbázisát 4 tábla alkotja:
 
 Elérhető filmek:
 
@@ -217,26 +217,40 @@ Elérhető filmek:
 * értékelés
 * mennyiség
 * megjelenés éve
-* kategória
-
-Kikölcsönzött filmek:
-
-* id
-* telefonszám
-* film neve
-* kategóriája
+* fk_category
 
 Kölcsönzés:
 
 * id
-* film id
-* kikölcsönöztt film id
-* kölcsönzés dátuma
+* fk_person
+* fk_ava_movies
+* date
+
+Személy:
+
+* id
+* telefonszám
+* kikölcsönzött könyv neve
+* kikölcsönzött könyvek száma
+* visszahozta e
+
+Kategória:
+
+* id
+* név
 
 **Logikai Modell**:
 
-![Kép a modellről: ](photos/db.png)
+![Kép a modellről: ](photos/db_photo.png)
 
+Person                      |   Borrowing              |   Available_Movies   | Category
+----------------------------|--------------------------|----------------------|---------------
+ID primary key              | ID primary key           | ID primary key       | ID primary key
+phone_number INTEGER        | fk_person INTEGER        | fk_category INTEGER  | name VARCHAR
+borrowed_movies VARCHAR     | fk_ava_movies INTEGER    | name VARCHAR
+borrowed_movie_name VARCHAR | date DATE                | rating FLOAT
+is_returned BOOLEAN         |                          | year INTEGER
+|                           |                          | quantity INTEGER
 ### 13. Implementációs terv.
 
 A tervezési folyamatban célszerű az általános logikai felépítést mindig valamilyen grafikus reprezentációval modellezni, mert az emberi agy vizualizált objektumokkal könnyebben dolgozik.
