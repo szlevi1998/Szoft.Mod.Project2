@@ -12,6 +12,32 @@ költsége elenyésző lesz a korábbihoz képest.
 
 ### 2. A project tervezete.
 
+#### 2.1. A rendszer felépítése
+
+Az adatbázis kapcsolathoz szükséges egy adatbázis connection osztály,
+amely létrehozza, fenntartja, és zárja az adatbáziskapcsolatot.
+
+A rendszer SQL-t alkalmaz majd a filmek adatainak tárolásához, illetve
+a kölcsönzés és bérlések adatai szintén hasonlóan lesznek tárolva.
+
+A designhoz felfogjuk használni a Bootstrap4-et, amely segíteni fog a sötét téma előállításához.
+
+A program controllerjeihez a Java programozási nyelvét fogjuk alkalmazni.
+A projekthez illetve felhasználásra kerül a Maven nevű projekt menedzsment eszköztárai is.
+
+#### 2.2. Projektmunkások és felelősségeik
+
+A projektünkben 4 személy fogja fejleszteni a programunkat.
+
+Az alábbi táblázattal tudjuk ismertetni a fejlesztőket és a szerepkörüket.
+
+Név | Szerepkör
+-----------|---------
+Antal Balázs | frontend fejlesztő
+Nagy Martin | backend fejlesztő
+Udvardy Márton | backend fejlesztő
+Szűcs Levente | frontend fejlesztő
+
 ### 3. Ütemterv.
 
 ### 3.1 Mérföldkövek
