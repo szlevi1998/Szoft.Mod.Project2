@@ -103,14 +103,13 @@ A jelenlegi funkciók mellett további funkciókat adunk hozzá.
     - A kölcsönző ügyfélnek a telefonszámának megjelenítése
     - A kölcsönzés dátumának megjelenítése.
     
-* Ezekkel a funkciókkal a kölcsönzés/bérlés mind az ügyfélnek mind a
- tulajnak sokkal kényelmesebbé válik. Keresés sokkal egyszerűbb,
- hiszen az ügyfélnek nem kell elmenni az üzlethez, hogy megtudja,
+* Ezekkel a funkciókkal a kölcsönzés/bérlés a tulajnak sokkal kényelmesebbé válik.
+ Keresés sokkal egyszerűbb,hiszen nem kell elmenni az üzlethez, hogy megtudja,
  az adott film elérhető vagy nem. Emellett a pontozási rendszerrel
- ,a kategóriákkal, az ügyfél könnyen találhat magának egy filmet amit
+ ,a kategóriákkal, könnyebben találhat magának egy filmet amit
  kikölcsönözhet, bérelhet, hiszen így van valamilyen viszonyítási alapja.  
   
- * A tulajnak is egyszerűbbé válik ezeknek a feladatoknak a vezetése.
+ * A tulajnak egyszerűbbé válik ezeknek a feladatoknak a vezetése.
  Ugyanis tudni fogja sokkal egyszerűbben, hogy az adott film (ami már
  ki van kölcsönözve) kihez tartozik és mikor adta ki. Ezen kívül sokkal
  egyszerűbben tudja ellenőrízni,hogy az adott filmből hány példány van még.
