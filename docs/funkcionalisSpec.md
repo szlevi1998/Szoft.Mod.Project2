@@ -77,7 +77,7 @@ A rendszerben az alábbi dolgokat lehessen csinálni
    
    * Hány darab film van összesen az adott kérésből.
    
-   * Hány darab elérhető könyv van az adott kérésből.
+   * Hány darab elérhető film van az adott kérésből.
    
    * A lefoglalt filmekhez legyen elérhető egy azonosító, telefonszám aki kikölcsönözte illetve egy opció miszerint kivan-e kölcsönözve vagy nincs.
    
