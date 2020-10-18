@@ -117,16 +117,15 @@ A jelenlegi funkciók mellett további funkciókat adunk hozzá.
            
 ### 7. Rendszerszereplők.
 
-A rendszert két részre lehet osztani, amelyhez különböző funkciók tartoznak. 
+A rendszert mint említettük a tulajnak készül azaz minden funkciót ő tudja alkalmazni. 
 
-* A két rész az alábbi:
-    - Tulaj
-    - Ügyfél
+* A tulajnak a dolga sokkal egyszerűbb az előző papíros verzióhoz képest.
 
-* Az alkalmazásban a két rész között nem várható óriási különbség.
-Mindkét fél megtudja tekinteni a filmek listáját. Mindkét fél tud szűrni
-a filmek között. A nagyobb különbség az, hogy a tulaj megtudja tekinteni, hogy
-a bérelt filmhez, melyik telefonszám tartozik.
+Az alábbi funkciók amelyek megkönnyebbíti a tulaj dolgát: 
+  - Szűrések a filmek közül
+  - Az adatok csoportosítva, sorbarendezve megtekinthetőek
+  - Az adott filmekhez, adott telefonszámok vannak hozzárendelve
+  - Hátralévő darabszámok felvannak tűntve az adott filmekhez   
 
 ### 8. Rendszerhasználati esetek és lefutásaik.
 
