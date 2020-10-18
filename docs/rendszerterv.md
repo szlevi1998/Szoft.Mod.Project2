@@ -104,10 +104,10 @@ A jelenlegi funkciók mellett további funkciókat adunk hozzá.
     - A kölcsönzés dátumának megjelenítése.
     
 * Ezekkel a funkciókkal a kölcsönzés/bérlés a tulajnak sokkal kényelmesebbé válik.
- Keresés sokkal egyszerűbb,hiszen nem kell elmenni az üzlethez, hogy megtudja,
- az adott film elérhető vagy nem. Emellett a pontozási rendszerrel
- ,a kategóriákkal, könnyebben találhat magának egy filmet amit
- kikölcsönözhet, bérelhet, hiszen így van valamilyen viszonyítási alapja.  
+ Ezek a funkciók sokkal egyszerűbbé válnak, hiszen ezek a funkciók digitálisak.
+ Most már nem kell rögzíteni a kölcsönzést és a bérlést papíron, ehelyett
+ gyakorlatilag már egy gombra kattintással lehet sok időtigénylő feladatot elintézni.
+  Emellett az adatok sorbarendezesék szintén gombnyomásokkal működnek, ezzel megkönnyebbíti a tulaj dolgát.  
   
  * A tulajnak egyszerűbbé válik ezeknek a feladatoknak a vezetése.
  Ugyanis tudni fogja sokkal egyszerűbben, hogy az adott film (ami már
