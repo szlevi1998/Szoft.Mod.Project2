@@ -158,6 +158,9 @@ Az alábbi funkciók amelyek megkönnyebbíti a tulaj dolgát:
 
 ### 9. Fejlesztői eszközök.
 
+* Java
+* Maven
+* SQL
 
 ### 10. Keretrendszer.
 
