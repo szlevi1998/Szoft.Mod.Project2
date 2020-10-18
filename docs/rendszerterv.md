@@ -168,6 +168,38 @@ Az alábbi funkciók amelyek megkönnyebbíti a tulaj dolgát:
 
 ### 11. Architekturális terv.
 
+Rendszert felépítő alrendszerek (szoftver komponensek) lényegében a Java ,Sql ,Mavan használata .
+Az alrendszerek meghatározása után a tulajdonságaikat kiaknázva vezérlési, valamint kommunikációs kapcsolatokat lehet létrehozni ez által.
+Ennek a megfelelő komponensek és összekötök ismeretében magas szintű tervezetet jön létre.
+A rendszer szerepe az érdekelt szereplő kommunikációjának lehetővé tétele ,a korai fejlesztési fázisok döntéseinek támogatása a követelmények tükrében és emelet igen fontos a Nagy lépték" újrafelhasználhatóság elősegítése.
+Ehez persze szükség van különféle forrásokra mint Üzleti és technológiai döntések eredménye ,meghatározó a környezet szerepe , fejlesztők céljai és stratégiája által befolyásolt követelmények vezetnek különféle szoftver architektúrákhoz.
+Mint minden folyamat ez is egy ciklus körül forog mint az :
+
+   * Architektúrát meghatározó fejlesztő szervezet szerkezetéből.
+   
+   * Szereplő.
+   
+   * Követelmények.
+   
+   * Technológiai környezet.
+   
+   * A tervező tapasztalata.
+
+Architektúra elemek:
+
+   * Architektúrális minta.
+      * Típus elemek és kapcsolatok, kényszerek.
+      * pl. kliens-szerver minta.
+   
+   * Referencia modell.
+      * Standard funkcionális felosztás és adatfolyam megoldások.
+      * pl. adatbázis kezelő rendszer.
+   
+   * Referencia architektúra.
+      * Referencia modell leképezése szoftver elemekre.
+      * pl. ISO OSI architektúra.
+   
+
 ### 12. Adatbázis terv.
 
 A program adatbázisát 3 tábla alkotja:
