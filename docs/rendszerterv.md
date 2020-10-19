@@ -326,10 +326,10 @@ Pont|Leírás|
 64: | Kategória menüben az adatok lekérdezése megjelenik.
 65: | Kategória menüben az adatok lekérdezése működik.
 66: | A lekérdezés hibás input esetén hibát dob.
-67: | Kihagyott / üres rubrika esetén az adat beadása sikertelen.
+67: | Kihagyott / üres rubrika esetén az adat lekérdezése sikertelen.
 68: | Kategória menüben az adatok törlése megjelenik.
 69: | Kategória menüben az adatok törlése működik.
 70: | A törlés hibás input esetén hibát dob.
-71: | Kihagyott / üres rubrika esetén az adat beadása sikertelen.
+71: | Kihagyott / üres rubrika esetén az adat törlése sikertelen.
 72: | A vissza gomb az összes oldalon működik.
 73: | A vissza a főoldalra gomb az összes oldalon működik.
