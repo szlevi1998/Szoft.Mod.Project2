@@ -279,29 +279,57 @@ Pont|Leírás|
 16: | Film törlése invalid inputokkal hibát dob.
 17: | Film törlésekor, ha a film többször szerepel az adatbázisban, akkor a darabszámot csökkenti.
 18: | Film törlésekor frissül az elérhető filmek száma.
-19: | Kikölcsönzött filmek menüben jelzi a jelenleg kikölcsönzött filmek számát.
-20: | Kikölcsönzött filmek menüben mind a három opció: adatok hozzáadása, adatok lekérdezése, adatok törlése megjelenik.
-22: | Kikölcsönzött filmek menüben mindegyik opció megfelelően működik.
-23: | Kikölcsönzött filmek menüben az adatok hozzáadása megjelenik.
-24: | Kikölcsönzött filmek menüben az adatok hozzáadása működik.
+19: | Személy menüben jelzi a jelenleg kikölcsönzött filmek számát.
+20: | Személy menüben mind a három opció: adatok hozzáadása, adatok lekérdezése, adatok törlése megjelenik.
+22: | Személy menüben mindegyik opció megfelelően működik.
+23: | Személy menüben az adatok hozzáadása megjelenik.
+24: | Személy menüben az adatok hozzáadása működik.
 25: | Kihagyott / üres rubrika esetén az adat beadása sikertelen.
 26: | Hibás adat megadásakor nem változik a jelenleg kikölcsönzött filmek száma.
 27: | A hozzáadás hibás input esetén hibát dob.
 28: | Hozzáadás esetén a checkbox a film kintlétét jelzi.
 29: | Egy telefonszámhoz több film is adható.
 30: | Egy telefonszám egyszer szerepel az adatbázisban.
-31: | Kikölcsönzött filmek menüben az adatok lekérdezése megjelenik.
-32: | Kikölcsönzött filmek menüben az adatok lekérdezése működik.
+31: | Személy menüben az adatok lekérdezése megjelenik.
+32: | Személy menüben az adatok lekérdezése működik.
 33: | Kihagyott / üres rubrika esetén a lekérdezés sikertelen.
 34: | A lekérdezés hibás input esetén hibát dob.
 35: | Sikeres lekérdezése esetén a telefonszámhoz tartozó összes filmnevet visszaadja.
 36: | Lekérdezés esetén a visszahozott filmek állapotát helyesen jelzi.
 37: | Lekérdezés esetén a kintlévő filmek állapotát helyesen jelzi.
-38: | Kikölcsönzött filmek menüben az adatok törlése megjelenik.
-39: | Kikölcsönzött filmek menüben az adatok törlése működik.
+38: | Személy menüben az adatok törlése megjelenik.
+39: | Személy menüben az adatok törlése működik.
 40: | Törlés létező telefonszámmal működik.
 41: | Egy telefonszám törlésekor az összes hozzá tartozó adat törlődik.
 42: | Törléskor a kikölcsönzött filmek száma frissül.
 43: | Törlés invalid inputtal hibát dob.
-44: | A vissza gomb az összes oldalon működik.
-45: | A vissza a főoldalra gomb az összes oldalon működik.
+44: | Kölcsönzés menüben az adatok lekérdezése megjelenik.
+45: | Kölcsönzés menüben az adatok lekérdezése működik.
+46: | Kölcsönzés menüben mind a három opció: adatok hozzáadása, adatok lekérdezése, adatok törlése megjelenik.
+47: | Kihagyott / üres rubrika esetén az adat lekérdezése sikertelen.
+48: | A lekérdezés hibás input esetén hibát dob.
+49: | Kölcsönzés menüben az adatok hozzáadása működik.
+50: | Kölcsönzés menüben az adatok hozzáadása megjelenik.
+51: | Kihagyott / üres rubrika esetén az adat beadása sikertelen.
+52: | A hozzáadás hibás input esetén hibát dob.
+53: | Egy dátumhoz több film is rendelhető.
+54: | Egy személy többször is kiveheti ugyan azt a filmet.
+55: | Kölcsönzés menüben az adatok törlése megjelenik.
+56: | Kölcsönzés menüben az adatok törlése működik.
+57: | A törlés hibás input esetén hibát dob.
+58: | Kihagyott / üres rubrika esetén az adat törlése sikertelen.
+59: | Kategória menüben mind a három opció: adatok hozzáadása, adatok lekérdezése, adatok törlése megjelenik.
+60: | Kategória menüben az adatok hozzáadása megjelenik.
+61: | Kategória menüben az adatok hozzáadása működik.
+62: | A hozzáadás hibás input esetén hibát dob.
+63: | Kihagyott / üres rubrika esetén az adat beadása sikertelen.
+64: | Kategória menüben az adatok lekérdezése megjelenik.
+65: | Kategória menüben az adatok lekérdezése működik.
+66: | A lekérdezés hibás input esetén hibát dob.
+67: | Kihagyott / üres rubrika esetén az adat beadása sikertelen.
+68: | Kategória menüben az adatok törlése megjelenik.
+69: | Kategória menüben az adatok törlése működik.
+70: | A törlés hibás input esetén hibát dob.
+71: | Kihagyott / üres rubrika esetén az adat beadása sikertelen.
+72: | A vissza gomb az összes oldalon működik.
+73: | A vissza a főoldalra gomb az összes oldalon működik.
