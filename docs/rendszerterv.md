@@ -241,7 +241,7 @@ Kategória:
 
 **Logikai Modell**:
 
-![Kép a modellről: ](photos/db_photo.png)
+![Kép a modellről: ](photos/db_photo2.png)
 
 Person                      |   Borrowing              |   Available_Movies   | Category
 ----------------------------|--------------------------|----------------------|---------------
