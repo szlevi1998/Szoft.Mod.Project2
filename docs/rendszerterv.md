@@ -246,11 +246,13 @@ Kategória:
 Person                      |   Borrowing              |   Available_Movies   | Category
 ----------------------------|--------------------------|----------------------|---------------
 ID primary key              | ID primary key           | ID primary key       | ID primary key
-phone_number INTEGER        | fk_person INTEGER        | fk_category INTEGER  | name VARCHAR
-borrowed_movies VARCHAR     | fk_ava_movies INTEGER    | name VARCHAR
-borrowed_movie_name VARCHAR | date DATE                | rating FLOAT
-is_returned BOOLEAN         |                          | year INTEGER
-|                           |                          | quantity INTEGER
+name VARCHAR                | fk_person INTEGER        | fk_category INTEGER  | name VARCHAR
+phone_number INTEGER        | fk_ava_movies INTEGER    | name VARCHAR
+city VARCHAR                | date DATE                | rating FLOAT
+tax_number INTEGER          |                          | year INTEGER
+gender VARCHAR              |                           |                          |
+date_of_birth date          |
+
 ### 13. Implementációs terv.
 
 A tervezési folyamatban célszerű az általános logikai felépítést mindig valamilyen grafikus reprezentációval modellezni, mert az emberi agy vizualizált objektumokkal könnyebben dolgozik.
