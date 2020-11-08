@@ -1,0 +1,30 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family:'Poppins', sans-serif;
+    color: #222;
+}
+
+#movielist{
+    text-align: center;
+    font-weight: bold;
+}
+
+#movieid{
+    width: 20%;
+}
+
+#title{
+    width: 30%;
+}
+
+#category{
+    width: 30%;
+}
+#rating{
+    width: 10%;
+}
+
+#year{
+    width: 10%;
+}
