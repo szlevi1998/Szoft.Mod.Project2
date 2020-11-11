@@ -16,6 +16,11 @@ html,body{
     font-weight: bold;
 }
 
+.table-dark{
+    width:70%;
+    height: 70%;
+}
+
 #category{
     width: 30%;
 }
