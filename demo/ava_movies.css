@@ -34,16 +34,14 @@ html,body{
     position: absolute;
     top: 20%;
     left: 35%;
-    height: 10%;
-    width: 10%;
+    height: 30px;
+    width: 30px;
 }
 
 #search{
     position: absolute;
     top: 20%;
     left: 85%;
-    height: 10%;
-    width: 10%;
 }
 
 #movieid{
