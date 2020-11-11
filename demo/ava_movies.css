@@ -11,24 +11,6 @@ html,body{
     width: 90%;
 }
 
-#plus{
-    position: absolute;
-    top: 20%;
-    left: 15%;
-}
-
-#delete{
-    position: absolute;
-    top: 20%;
-    left: 35%;
-}
-
-#search{
-    position: absolute;
-    top: 20%;
-    left: 85%;
-}
-
 #movieid{
     width: 20%;
 }
