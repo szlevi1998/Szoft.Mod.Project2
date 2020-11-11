@@ -1,4 +1,5 @@
 html,body{
+    background-image: url('../img/hatter1.jpg');
     height: 100%;
     width: 100%;
     font-family:'Poppins', sans-serif;
@@ -6,13 +7,10 @@ html,body{
 }
 
 #movielist{
-    background-image: url('../img/hatter1.jpg');
     position: fixed;
     display: block;
     top: 10%;
     left: 0;
-    height: 60%;
-    width: 60%;
 }
 
 #plus{
