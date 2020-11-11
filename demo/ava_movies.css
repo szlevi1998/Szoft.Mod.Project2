@@ -1,14 +1,18 @@
 html,body{
-    background-image: url('../img/backimage.jpg');
+    background-image: url('../img/hatter2.jpg');
     height: 100%;
     width: 100%;
     font-family:'Poppins', sans-serif;
     color: #222;
 }
 
+.content{
+    min-height: 75%;
+}
+
 .table-dark{
     padding: 5em;
-    width: 90%;
+    width: 100%;
     text-align: center;
 }
 
@@ -34,4 +38,20 @@ html,body{
 #year{
     width: 10%;
     text-align: center;
+}
+
+#add{
+    position: absolute;
+    left: 88%;
+}
+
+#search{
+    position: absolute;
+    left: 82.3%;
+}
+
+#delete{
+    position: absolute;
+    left: 95%;
+
 }
