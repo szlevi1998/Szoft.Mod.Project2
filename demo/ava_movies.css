@@ -26,18 +26,24 @@ html,body{
     position: absolute;
     top: 20%;
     left: 15%;
+    height: 10%;
+    width: 10%;
 }
 
 #delete{
     position: absolute;
     top: 20%;
     left: 35%;
+    height: 10%;
+    width: 10%;
 }
 
 #search{
     position: absolute;
     top: 20%;
     left: 85%;
+    height: 10%;
+    width: 10%;
 }
 
 #movieid{
