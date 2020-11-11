@@ -4,17 +4,18 @@
     <title> Demo Version </title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="category.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <link href="category.css" rel="stylesheet">
+
     <script>
-        $(document).ready(function(){
+        $(document).ready(function () {
             $("#top").load("nav.html")
         });
-        $(document).ready(function(){
+        $(document).ready(function () {
             $("#bottom").load("footer.html")
         });
     </script>
@@ -25,43 +26,46 @@
 <div class="container-fluid" id="top">
 </div>
 
-<div id = "categorylist">
-    <table class="table table-dark table-hover">
-        <thead>
-        <tr>
-            <th id="category" Kategória></th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Akció</td>
-        </tr>
-        <tr>
-            <td>Animációs</td>
-        </tr>
-        <tr>
-            <td>Dráma</td>
-        </tr>
-        <tr>
-            <td>Fantasy</td>
-        </tr>
-        <tr>
-            <td>Horror</td>
-        </tr>
-        <tr>
-            <td>Krimi</td>
-        </tr>
-        <tr>
-            <td>Sci-fi</td>
-        </tr>
-        <tr>
-            <td>Thriller</td>
-        </tr>
-        <tr>
-            <td>Vígjáték</td>
-        </tr>
-        </tbody>
-    </table>
+<div class="content">
+
+    <div class="container mt-2 w-25">
+        <table class="table table-dark table-hover">
+            <thead>
+            <tr>
+                <th id="category" Kategória>Műfaj</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Akció</td>
+            </tr>
+            <tr>
+                <td>Animációs</td>
+            </tr>
+            <tr>
+                <td>Dráma</td>
+            </tr>
+            <tr>
+                <td>Fantasy</td>
+            </tr>
+            <tr>
+                <td>Horror</td>
+            </tr>
+            <tr>
+                <td>Krimi</td>
+            </tr>
+            <tr>
+                <td>Sci-fi</td>
+            </tr>
+            <tr>
+                <td>Thriller</td>
+            </tr>
+            <tr>
+                <td>Vígjáték</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
 </div>
 
 <div class="container-fluid" id="bottom">

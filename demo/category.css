@@ -1,27 +1,20 @@
-html,body{
+html, body {
     background-image: url('../img/background4.jpg');
     height: 100%;
     width: 100%;
-    font-family:'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #222;
 }
 
-.table-bordered{
-    padding: 5em;
-    width: 90%;
-}
 
-#categorylist{
+.table-dark {
+    width: 60%;
+    height: 60%;
     text-align: center;
-    font-weight: bold;
 }
 
-.table-dark{
-    width:70%;
-    height: 70%;
-}
 
-#category{
+#category {
     width: 30%;
 }
 
