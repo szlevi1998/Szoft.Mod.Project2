@@ -6,11 +6,9 @@ html,body{
     color: #222;
 }
 
-#movielist{
-    position: fixed;
-    display: block;
-    top: 10%;
-    left: 0;
+.table-bordered{
+    padding: 5em;
+    width: 90%;
 }
 
 #plus{
