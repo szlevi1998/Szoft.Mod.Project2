@@ -18,3 +18,21 @@ html, body {
     width: 30%;
 }
 
+
+
+#add{
+    position: absolute;
+    left: 88%;
+}
+
+#search{
+    position: absolute;
+    left: 82.3%;
+}
+
+#delete{
+    position: absolute;
+    left: 95%;
+
+}
+
