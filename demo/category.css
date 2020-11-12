@@ -22,16 +22,19 @@ html, body {
 
 #add{
     position: absolute;
+    top: 50%;
     left: 88%;
 }
 
 #search{
     position: absolute;
+    top: 50%;
     left: 82.3%;
 }
 
 #delete{
     position: absolute;
+    top: 50%;
     left: 95%;
 
 }
