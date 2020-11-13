@@ -13,29 +13,9 @@ html, body {
     text-align: center;
 }
 
-
-#category {
-    width: 30%;
+.content {
+    min-height: 75%;
+    padding-top: 2em;
 }
 
-
-
-#add{
-    position: absolute;
-    top: 50%;
-    left: 88%;
-}
-
-#search{
-    position: absolute;
-    top: 50%;
-    left: 82.3%;
-}
-
-#delete{
-    position: absolute;
-    top: 50%;
-    left: 95%;
-
-}
 
