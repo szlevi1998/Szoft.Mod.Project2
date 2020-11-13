@@ -1,0 +1,23 @@
+html,body{
+    background-image: url('../img/macbookwall2.jpg');
+    height: 100%;
+    width: 100%;
+    font-family:'Poppins', sans-serif;
+    color: #222;
+}
+
+.content{
+    min-height: 75%;
+}
+
+.table-dark{
+    width: 100%;
+    text-align: center;
+}
+
+#tableSearch {
+    width:40%;
+}
+.idk {
+    padding-top: 2em;
+}
