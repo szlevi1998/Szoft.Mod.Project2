@@ -46,6 +46,162 @@
 <!--- Nav -->
 <div id="top"></div>
 
+<div class="content">
+    <div class = "container">
+        <!-- Search form -->
+        <form class="idk">
+            <input class="form-control mb-4" id="tableSearch" type="text" placeholder="Keresés...">
+        </form>
+        <table class="table table-dark table-hover">
+            <thead>
+            <tr>
+                <th id="name"> Film azonosító</th>
+                <th id="phone_number"> Telefonszám</th>
+                <th id="city"> Város</th>
+                <th id="tax_number"> Adószám</th>
+                <th id="gender"> Nem</th>
+                <th id="date_of_birth"> Születési év</th>
+            </tr>
+            </thead>
+            <tbody id="myTable">
+            <tr>
+                <td>Gipsz Jakab</td>
+                <td>06 20 9845211</td>
+                <td>New York</td>
+                <td>003343</td>
+                <td>Male</td>
+                <td>1973.05.21</td>
+            </tr>
+            <tr>
+                <td>Kovács Péter</td>
+                <td>06 70 9855221</td>
+                <td>Sepsiszentgyörgy</td>
+                <td>007564</td>
+                <td>Male</td>
+                <td>1978.06.09</td>
+            </tr>
+            <tr>
+                <td>Molnár Gyula</td>
+                <td>06 30 6774442</td>
+                <td>Kassa</td>
+                <td>007664</td>
+                <td>Male</td>
+                <td>1995.02.14</td>
+            </tr>
+            <tr>
+                <td>Nagy Levente</td>
+                <td>06 30 5664777</td>
+                <td>Miami</td>
+                <td>001233</td>
+                <td>Male</td>
+                <td>1965.04.04</td>
+            </tr>
+            <tr>
+                <td>Kiss Ákos</td>
+                <td>06 20 7532333</td>
+                <td>Bécs</td>
+                <td>005543</td>
+                <td>Male</td>
+                <td>1970.07.26</td>
+            </tr>
+            <tr>
+                <td>Pallagi Ferenc</td>
+                <td>06 20 1004443</td>
+                <td>Pécs</td>
+                <td>002223</td>
+                <td>Male</td>
+                <td>1956.09.01</td>
+            </tr>
+
+            <tr>
+                <td>Tóth János</td>
+                <td>06 70 8957845</td>
+                <td>Berlin</td>
+                <td>008655</td>
+                <td>Male</td>
+                <td>1940.02.11</td>
+            </tr>
+            </tbody>
+        </table>
+        <!--- Button -->
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#secondModal" id="secondButton">Hozzáad</button>
+        <!-- Modal -->
+        <div class="modal fade" id="secondModal" tabindex="-1" role="dialog" aria-labelledby="secondModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="secondModalLabel">Adj hozzá új kategóriát!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="formGroupSecondInput">Film neve</label>
+                                <input type="text" class="form-control" id="formGroupSecondInput" placeholder="szöveg...">
+                            </div>
+                            <div class="form-group">
+                                <label for="formGroupSecondInput">Kategória</label>
+                                <input type="text" class="form-control" id="formGroupSecondInput" placeholder="szöveg...">
+                            </div>
+                            <div class="form-group">
+                                <label for="formGroupSecondInput">Értékelés</label>
+                                <input type="text" class="form-control" id="formGroupSecondInput" placeholder="szöveg...">
+                            </div>
+                            <div class="form-group">
+                                <label for="formGroupSecondInput">Megjelenés éve</label>
+                                <input type="text" class="form-control" id="formGroupSecondInput" placeholder="szöveg...">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Bezár</button>
+                        <button type="button" class="btn btn-primary">Mentés</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--- Button -->
+        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#thirdModal" id="thirdButton">Töröl</button>
+        <!-- Modal -->
+        <div class="modal fade" id="thirdModal" role="dialog" aria-labelledby="thirdModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="thirdModalLabel">Törölj egy filmet!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!--- text field -->
+                        <form>
+                            <div class="form-group">
+                                <div class="text">Keresés típusa</div>
+                                <select class="js-example-placeholder-single js-states form-control" name="state" style="width: 100%">
+                                    <option></option>
+                                    <option value="1">Avengers: Endgame</option>
+                                    <option value="2">Halloween</option>
+                                    <option value="3">The Dark Knight</option>
+                                    <option value="4">The Godfather</option>
+                                    <option value="5">Star Wars 3 Revenge of The Sith</option>
+                                    <option value="6">Cars 3</option>
+                                    <option value="7">Once Upon a Time... in Hollywood</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Bezár</button>
+                        <button type="button" class="btn btn-primary">Töröl</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!--- Footer -->
 <div id="bottom"></div>
 </body>
