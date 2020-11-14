@@ -79,7 +79,8 @@ A rendszerben az alábbi dolgokat lehessen csinálni
    
    * Hány darab elérhető film van az adott kérésből.
    
-   * A lefoglalt filmekhez legyen elérhető egy azonosító, telefonszám aki kikölcsönözte illetve egy opció miszerint kivan-e kölcsönözve vagy nincs.
+   * A lefoglalt filmekhez legyen elérhető egy azonosító, név, kategória, értékelés, megjelenés éve.
+   
    
 Maga a felület böngészőből legyen elérhető.
 Adattárolására kiválló legyen.
@@ -88,21 +89,21 @@ A kliens számára egy megfelelő, szemkímélő designt próbálunk elkészíte
 melyet könnyű használni, megjelenése igényes és modern. Ehhez a Bootstrapet
 fogjuk felhasználni, mely letisztult designt biztosít, és emellé rengeteg
 fontos és hasznos felhasználói eszköz megvalósítását egyszerűsíti. Az oldal
-alapja egy főmenü, illetve a menü mellett helyezkedik el a fő tartalom,
-a választott menüpontnak megfelelően. Jelenleg három fő képernyő és menüpont
-van tervbe véve: 
+alapja egy főmenű. Jelenleg öt fő képernyő van tervbe véve: 
 
 * Főoldal: Itt az elérhető funkciókat fogjuk bővebben kifejteni.
 
-* Elérhető filmek: Az elérhető filmek kategória és megjelenési dátum
-alapján kereshetőek ki az oldalon.
+* Elérhető filmek: Az elérhető filmek kategóriában lesz film azonosító,
+név, kategória, értékelés és a film megjelenésének éve..
 
-* Kikölcsönzött filmek: Minden kikölcsönzött film rendelkezik egy saját
-id-val, a kikölcsönöztt fél telefonszámával és egy checkbox funkcióval,
-ahol jelölhető, hogy a film éppen ki van e még kölcsönözve vagy már 
-visszhozták. 
+* Kategóriák: A kategóriáknál a hozzáadott kategóriák neve szerepel.
 
-A képernyők háttere inkább sötét jellegű lesz. Lehetséges, hogy véletlenszerű
-képek lesznek kiválasztva az unsplash.com oldalról. Az oldal reszponzív
+* Kölcsönzés: A kölcsönzésnél a kölcsönző neve, az adatbázisból kiválasztva és
+a film neve, az adatbázisból kiválasztva.
+
+* Személyek: A személyeknél látható dolgok a név, telefonszám, város, adószám, nem
+és a születési év.
+
+A képernyők háttere inkább sötét jellegű lesz. Az oldal reszponzív
 megjelenésű lesz, a felhasználó szeme előtt mindig csak a fontos információ
 lesz megtalálható.

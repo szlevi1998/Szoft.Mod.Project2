@@ -63,22 +63,21 @@ A program elkészítésének fő mérföldkövei:
 
 - A program elkészítésének megtervezése, felosztása.
 - A program prototípusának elkészítése.
-- A program tesztelése a minimálisan működő funkciókkal.
 - A programnak a bemutatáshoz szükséges PPT elkészítése.
 
 #### 3.1.3 Sprint III.
 
 - A program adatbázisának elkészítése.
-- A program controllerének elkészítése.
-- A program tesztjeinek felállítása.
-- Az adatbázis hozzákapcsolása a programhoz.
-- A program fő tesztjeinek elvégzése.
+- A webszolgáltatás alapjainak elkészítése.
+- Spring boot felkonfigurálása.
+- Web services elkészítésének elkezdése.
+- Tesztek elkezdése.
 
 #### 3.1.4 Sprint IV.
 
 - A felhasználó visszajelzéseinek fogadása és áttekintése.
 - Lehetséges hibák javítása.
-- Plusz kisebb funkciók belehelyezése.
+- Web services elkészítésének befejezése.
 - A program biztonságának növelése.
 - Átadás.
 
@@ -171,6 +170,8 @@ Az alábbi funkciók amelyek megkönnyebbíti a tulaj dolgát:
 ### 10. Keretrendszer.
 
 * Bootstrap 4
+* J Query
+* Spring Boot
 
 ### 11. Architekturális terv.
 
@@ -229,10 +230,12 @@ Kölcsönzés:
 Személy:
 
 * id
+* név
 * telefonszám
-* kikölcsönzött könyv neve
-* kikölcsönzött könyvek száma
-* visszahozta e
+* város
+* adószám
+* nem
+* születési év
 
 Kategória:
 
