@@ -20,6 +20,9 @@ public class AvailableMovies {
     @Column(name = "YEAR")
     private String year;
 
+    @Column(name = "CATEGORY")
+    private String category;
+
     public AvailableMovies() {
 
     }
@@ -46,6 +49,14 @@ public class AvailableMovies {
 
     public void setRating(String rating) {
         this.rating = rating;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public String getCategory() {
+        return category;
     }
 
     public String getYear() {
