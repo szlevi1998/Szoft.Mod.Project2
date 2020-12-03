@@ -11,4 +11,3 @@ public class Views {
     public static class FromPerson extends Base {
     }
 }
-
