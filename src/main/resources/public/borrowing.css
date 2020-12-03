@@ -1,0 +1,15 @@
+body {
+    background-image: url('../img/backimage.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.content {
+    min-height: 75%;
+}
+
+.container{
+    padding-top: 2em;
+}

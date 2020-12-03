@@ -1,0 +1,21 @@
+html, body {
+    background-image: url('../img/background4.jpg');
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+
+
+.table-dark {
+    width: 60%;
+    height: 60%;
+    text-align: center;
+}
+
+.content {
+    min-height: 75%;
+    padding-top: 2em;
+}
+
+

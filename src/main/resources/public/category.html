@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Demo Version </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="category.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#top").load("nav.html")
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("#bottom").load("footer.html")
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $(".js-example-placeholder-single").select2({
+                placeholder: "szöveg...",
+                allowClear: true
+            });
+        });
+    </script>
+</head>
+<body>
+
+
+<!--- Nav -->
+<div id="top"></div>
+<div class="content">
+    <div class = "container">
+        <table class="table table-dark table-hover" id="myTable">
+            <thead>
+            <tr>
+                <th id="category" Kategória>Műfaj</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Akció</td>
+            </tr>
+            <tr>
+                <td>Animációs</td>
+            </tr>
+            <tr>
+                <td>Dráma</td>
+            </tr>
+            <tr>
+                <td>Fantasy</td>
+            </tr>
+            <tr>
+                <td>Horror</td>
+            </tr>
+            <tr>
+                <td>Krimi</td>
+            </tr>
+            <tr>
+                <td>Sci-fi</td>
+            </tr>
+            <tr>
+                <td>Thriller</td>
+            </tr>
+            <tr>
+                <td>Vígjáték</td>
+            </tr>
+            </tbody>
+        </table>
+        <!--- Button -->
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#firstModal"id="firstButton">Hozzáad</button>
+        <!-- Modal -->
+        <div class="modal fade" id="firstModal" tabindex="-1" role="dialog" aria-labelledby="firstModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="firstModalLabel">Adj hozzá új kategóriát!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="formGroupFirstInput">Kategória neve</label>
+                                <input type="text" class="form-control" id="formGroupFirstInput" placeholder="szöveg...">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Bezár</button>
+                        <button type="button" class="btn btn-primary">Mentés</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Button -->
+        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#secondModal"id="secondButton">Töröl</button>
+        <!-- Modal -->
+        <div class="modal fade" id="secondModal" role="dialog" aria-labelledby="secondModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="secondModalLabel">Törölj egy kategóriát!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <!--- text field -->
+                            <div class="form-group">
+                                <div class="text">Kategória neve</div>
+                                <select class="js-example-placeholder-single js-states form-control" name="state" style="width: 100% ">
+                                    <option></option>
+                                    <option value="AK">Akció</option>
+                                    <option value="AN">Animáció</option>
+                                    <option value="DR">Dráma</option>
+                                    <option value="FA">Fantasy</option>
+                                    <option value="HR">Horror</option>
+                                    <option value="KR">Krimi</option>
+                                    <option value="SC">Sci-fi</option>
+                                    <option value="TH">Thriller</option>
+                                    <option value="VI">Vígjáték</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Bezár</button>
+                        <button type="button" class="btn btn-primary">Mentés</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--- Footer -->
+<div id="bottom"></div>
+</body>
+</html>
