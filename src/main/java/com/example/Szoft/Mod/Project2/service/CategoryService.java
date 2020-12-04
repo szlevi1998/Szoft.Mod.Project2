@@ -20,7 +20,7 @@ public class CategoryService {
             this.categoryRepository.save(category);
             return "Sikeres hozzáadás!";
         }
-        catch (HttpMessageNotReadableException e) {
+        catch (Exception e) {
             return "Nem sikerült a hozzáadás..hibás formátum.";
         }
     }

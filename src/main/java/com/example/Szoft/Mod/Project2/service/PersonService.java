@@ -32,7 +32,7 @@ public class PersonService {
             this.personRepository.deleteById(id);
             return "Sikeres törlés!";
         }
-        catch(EmptyResultDataAccessException e) {
+        catch(Exception e) {
             return "Nem létezik ilyen id!";
         }
     }

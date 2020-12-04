@@ -28,7 +28,7 @@ public class BorrowingService {
             this.borrowingRepository.save(borrowing);
             return "Sikeres hozzáadás!";
         }
-        catch (HttpMessageNotReadableException e) {
+        catch (Exception e) {
             return "Nem sikerült a hozzáadás..hibás formátum.";
         }
     }

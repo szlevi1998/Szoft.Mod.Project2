@@ -3,6 +3,7 @@ package com.example.Szoft.Mod.Project2.service;
 import com.example.Szoft.Mod.Project2.entity.AvailableMovies;
 import com.example.Szoft.Mod.Project2.repository.AvailableMoviesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.json.JsonParseException;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.stereotype.Service;
@@ -21,7 +22,7 @@ public class AvailableMoviesService {
             this.availableMoviesRepository.save(availableMovies);
             return "Sikeres hozzáadás!";
         }
-        catch (HttpMessageNotReadableException e) {
+        catch (Exception e) {
             return "Nem sikerült a hozzáadás..hibás formátum.";
         }
     }
