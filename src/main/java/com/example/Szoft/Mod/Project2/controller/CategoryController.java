@@ -37,7 +37,7 @@ public class CategoryController {
     }
 
     @RequestMapping(method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
-    public void insertCategory(@RequestBody Category category){
-        categoryService.insertCategory(category);
+    public String insertCategory(@RequestBody Category category){
+        return categoryService.insertCategory(category);
     }
 }

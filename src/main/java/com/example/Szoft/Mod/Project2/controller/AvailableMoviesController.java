@@ -37,7 +37,7 @@ public class AvailableMoviesController {
     }
 
     @RequestMapping(method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
-    public void insertAvailableMovies(@RequestBody AvailableMovies availableMovies){
-        availableMoviesService.insertAvailableMovies(availableMovies);
+    public String insertAvailableMovies(@RequestBody AvailableMovies availableMovies){
+        return availableMoviesService.insertAvailableMovies(availableMovies);
     }
 }

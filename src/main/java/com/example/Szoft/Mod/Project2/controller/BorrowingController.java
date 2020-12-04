@@ -40,7 +40,7 @@ public class BorrowingController {
     }
 
     @RequestMapping(method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
-    public void insertBorrowing(@RequestBody BorrowingDTO borrowingDTO){
-        borrowingService.insertBorrowing(borrowingDTO);
+    public String insertBorrowing(@RequestBody BorrowingDTO borrowingDTO){
+        return borrowingService.insertBorrowing(borrowingDTO);
     }
 }

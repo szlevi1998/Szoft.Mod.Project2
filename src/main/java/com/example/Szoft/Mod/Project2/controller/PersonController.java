@@ -40,7 +40,7 @@ public class PersonController {
     }
 
     @RequestMapping(method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
-    public void insertPerson(@RequestBody Person person){
-        personService.insertPerson(person);
+    public String insertPerson(@RequestBody Person person){
+        return personService.insertPerson(person);
     }
 }
