@@ -4,6 +4,7 @@ import com.example.Szoft.Mod.Project2.entity.AvailableMovies;
 import com.example.Szoft.Mod.Project2.repository.AvailableMoviesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
+import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -15,8 +16,14 @@ public class AvailableMoviesService {
     private AvailableMoviesRepository availableMoviesRepository;
 
 
-    public void insertAvailableMovies(AvailableMovies availableMovies) {
-        this.availableMoviesRepository.save(availableMovies);
+    public String insertAvailableMovies(AvailableMovies availableMovies) {
+        try {
+            this.availableMoviesRepository.save(availableMovies);
+            return "Sikeres hozzáadás!";
+        }
+        catch (HttpMessageNotReadableException e) {
+            return "Nem sikerült a hozzáadás..hibás formátum.";
+        }
     }
 
 

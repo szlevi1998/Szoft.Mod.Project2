@@ -7,6 +7,7 @@ import com.example.Szoft.Mod.Project2.repository.BorrowingRepository;
 import com.example.Szoft.Mod.Project2.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
+import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -20,10 +21,16 @@ public class BorrowingService {
     private PersonRepository personDTO;
 
 
-    public void insertBorrowing(BorrowingDTO borrowingDTO) {
-        Borrowing borrowing = new Borrowing();
-        borrowing.setFk_person(new Person(borrowingDTO.getPerson()));
-        this.borrowingRepository.save(borrowing);
+    public String insertBorrowing(BorrowingDTO borrowingDTO) {
+        try {
+            Borrowing borrowing = new Borrowing();
+            borrowing.setFk_person(new Person(borrowingDTO.getPerson()));
+            this.borrowingRepository.save(borrowing);
+            return "Sikeres hozzáadás!";
+        }
+        catch (HttpMessageNotReadableException e) {
+            return "Nem sikerült a hozzáadás..hibás formátum.";
+        }
     }
 
 

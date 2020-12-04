@@ -4,6 +4,7 @@ import com.example.Szoft.Mod.Project2.entity.Category;
 import com.example.Szoft.Mod.Project2.repository.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
+import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -14,8 +15,14 @@ public class CategoryService {
     @Autowired
     private CategoryRepository categoryRepository;
 
-    public void insertCategory(Category category) {
-        this.categoryRepository.save(category);
+    public String insertCategory(Category category) {
+        try {
+            this.categoryRepository.save(category);
+            return "Sikeres hozzáadás!";
+        }
+        catch (HttpMessageNotReadableException e) {
+            return "Nem sikerült a hozzáadás..hibás formátum.";
+        }
     }
 
 

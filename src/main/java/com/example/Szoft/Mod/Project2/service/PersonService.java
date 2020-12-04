@@ -5,6 +5,7 @@ import com.example.Szoft.Mod.Project2.entity.Person;
 import com.example.Szoft.Mod.Project2.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
+import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -40,7 +41,14 @@ public class PersonService {
         this.personRepository.save(person);
     }
 
-    public void insertPerson(Person person) {
-        this.personRepository.save(person);
+    public String insertPerson(Person person) {
+        try {
+            this.personRepository.save(person);
+            return "Sikerült a hozzáadás!";
+        }
+        catch(HttpMessageNotReadableException e) {
+            return "Nem sikerült a hozzáadás..hibás formátum.";
+        }
+
     }
 }
