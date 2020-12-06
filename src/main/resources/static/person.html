@@ -13,6 +13,10 @@
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
 
+
+
+    <script src="./get_persons.js" ></script>
+    <script src="./new_person.js" ></script>
     <script>
         $(document).ready(function(){
             $("#top").load("nav.html")
@@ -64,7 +68,7 @@
             </tr>
             </thead>
             <tbody id="myTable">
-            <tr>
+            <!--<tr>
                 <td>Gipsz Jakab</td>
                 <td>06 20 9845211</td>
                 <td>New York</td>
@@ -121,6 +125,7 @@
                 <td>Male</td>
                 <td>1940.02.11</td>
             </tr>
+            -->
             </tbody>
         </table>
         <!--- Button -->
@@ -138,34 +143,34 @@
                     <div class="modal-body">
                         <form>
                             <div class="form-group">
-                                <label for="formGroupSecondInput">Nev</label>
-                                <input type="text" class="form-control" id="formGroupSecondInput" placeholder="szöveg...">
+                                <label for="formNameInput">Nev</label>
+                                <input type="text" class="form-control" id="formNameInput" placeholder="szöveg...">
                             </div>
                             <div class="form-group">
-                                <label for="formGroupSecondInput">Telefonszám</label>
-                                <input type="text" class="form-control" id="formGroupSecondInput" placeholder="szöveg...">
+                                <label for="formPhoneInput">Telefonszám</label>
+                                <input type="text" class="form-control" id="formPhoneInput" placeholder="szöveg...">
                             </div>
                             <div class="form-group">
-                                <label for="formGroupSecondInput">Város</label>
-                                <input type="text" class="form-control" id="formGroupSecondInput" placeholder="szöveg...">
+                                <label for="formCityInput">Város</label>
+                                <input type="text" class="form-control" id="formCityInput" placeholder="szöveg...">
                             </div>
                             <div class="form-group">
-                                <label for="formGroupSecondInput">Adószám</label>
-                                <input type="text" class="form-control" id="formGroupSecondInput" placeholder="szöveg...">
+                                <label for="formAdoInput">Adószám</label>
+                                <input type="text" class="form-control" id="formAdoInput" placeholder="szöveg...">
                             </div>
                             <div class="form-group">
-                                <label for="formGroupSecondInput">Nem</label>
-                                <input type="text" class="form-control" id="formGroupSecondInput" placeholder="szöveg...">
+                                <label for="formGenderInput">Nem</label>
+                                <input type="text" class="form-control" id="formGenderInput" placeholder="szöveg...">
                             </div>
                             <div class="form-group">
-                                <label for="formGroupSecondInput">Születési év</label>
-                                <input type="text" class="form-control" id="formGroupSecondInput" placeholder="szöveg...">
+                                <label for="formBirthInput">Születési év</label>
+                                <input type="text" class="form-control" id="formBirthInput" placeholder="szöveg...">
                             </div>
                         </form>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Bezár</button>
-                        <button type="button" class="btn btn-primary">Mentés</button>
+                        <button type="button" class="btn btn-primary" onClick="submitnewperson()">Mentés</button>
                     </div>
                 </div>
             </div>
