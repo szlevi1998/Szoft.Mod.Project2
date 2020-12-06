@@ -17,8 +17,11 @@ function submitnewmovie(){
     };
 
     fetch("http://localhost:8080/ava_movies", requestOptions)
-        .then(response => response.text())
-        .then(result => console.log(result))
+        .then(response => {
+            if (response.status === 200){
+                location.reload()
+            }
+        })
         .catch(error => console.log('error', error));
 
 }

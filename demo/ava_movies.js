@@ -1,4 +1,17 @@
+var available_movies = [];
+fetch("http://localhost:8080/ava_movies",{method:'GET'})
+    .then(response => response.json())
+    .then(response => available_movies = response)
+    .then(()=> console.log(available_movies))
+
+
 function submitnewmovie(){
+
+    var available_movies = [];
+    fetch("http://localhost:8080/ava_movies",{method:'GET'})
+        .then(response => response.json())
+        .then(response => available_movies = response)
+        .then(()=> console.log(available_movies))
 
     var myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
