@@ -18,12 +18,18 @@ fetch("http://localhost:8080/ava_movies", {method: 'GET'})
 
             let cell6 = row.insertCell(5)
 
-            cell6.innerHTML = "<button onClick = \"deletebyID("+element.id + ")\">X</button>"
+            cell6.innerHTML = "<button class=\"btn btn-danger\" onClick = \"deletebyID("+element.id + ")\">X</button>"
 
         }
     })
     .catch(error => console.log('error', error));
 
 function deletebyID(id){
-        console.log(id)
+fetch("http://localhost:8080/ava_movies/" + id, {method: 'DELETE'})
+    .then(response => {
+        if(response.status === 200){
+            alert("Movie successfully deleted")
+            location.reload()
+        }
+    })
 }
