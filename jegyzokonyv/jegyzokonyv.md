@@ -22,3 +22,12 @@
 | 16.    | Film módosítása üres adattal          | Hibakód megjelenik                       | Sikeres      | Szűcs Levente
 | 17.    | Film törlése létező id-val            | Sikeres törlés megtörténik               | Sikeres      | Szűcs Levente
 | 18.    | Film törlése nem létező id-val        | Hibakód megjelenik                       | Sikeres      | Szűcs Levente
+| 19.    | Új kategória hozzáadása        | Új kategória megjelenik a beadott adatokkal   | Sikeres      | Antal Balázs
+| 20.    | Új kategória felvétele rossz adatokkal     | Hibakód megjelenik                       | Sikeres      | Antal Balázs
+| 21.    | Új kategória felvétele adatok nélkül       | Hibakód megjelenik                       | Sikeres      | Antal Balázs
+| 22.    | Kategória adatainak lekérdezése            | Adatbázisban megjelennek az adatok       | Sikeres      | Antal Balázs
+| 23.    | Kategória módosítása helyes adattal        | Módosítás sikeresen megtörténik          | Sikeres      | Antal Balázs
+| 24.    | Kategória módosítása rossz adattal         | Hibakód megjelenik                       | Sikeres      | Antal Balázs
+| 25.    | Kategória módosítása üres adattal          | Hibakód megjelenik                       | Sikeres      | Antal Balázs
+| 26.    | Kategória törlése létező id-val            | Sikeres törlés megtörténik               | Sikeres      | Antal Balázs
+| 27.    | Kategória törlése nem létező id-val        | Hibakód megjelenik                       | Sikeres      | Antal Balázs
